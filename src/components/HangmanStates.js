@@ -9,6 +9,7 @@ import state8 from "../images/state8.GIF";
 import state9 from "../images/state9.GIF";
 import state11 from "../images/state11.GIF";
 
+// put all the images in an object
 const HangmanState = {
   state1: state1,
   state2: state2,
