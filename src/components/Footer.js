@@ -24,7 +24,7 @@ const Footer = () => {
             <button
               type="button"
               className="btn btn-primary btn-lg btn-floating mx-2"
-              style={{ backgroundColor: "#54456b;" }}
+              style={{ backgroundColor: "#54456b" }}
             >
               <i className="fab fa-instagram"></i>
             </button>
