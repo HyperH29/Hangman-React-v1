@@ -7,21 +7,24 @@ import state6 from "../images/state6.GIF";
 import state7 from "../images/state7.GIF";
 import state8 from "../images/state8.GIF";
 import state9 from "../images/state9.GIF";
+import state10 from "../images/state10.gif";
 import state11 from "../images/state11.GIF";
 
 // put all the images in an object
-const HangmanState = {
-  state1: state1,
-  state2: state2,
-  state3: state3,
-  state4: state4,
-  state5: state5,
-  state6: state6,
-  state7: state7,
-  state8: state8,
-  state9: state9,
-  state11: state11,
-};
+
+const HangmanState = [
+  state1,
+  state2,
+  state3,
+  state4,
+  state5,
+  state6,
+  state7,
+  state8,
+  state9,
+  state10,
+  state11,
+];
 
 export default HangmanState;
 
