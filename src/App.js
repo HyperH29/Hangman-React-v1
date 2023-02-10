@@ -1,8 +1,5 @@
 import "./App.css";
-import Button from "react-bootstrap/Button";
-import LoadScreen from "./components/LoadScreen";
 import Hangman from "./components/Hangman";
-import Message from "./components/Alert";
 import Footer from "./components/Footer";
 //import Hangman from "./components/Example";
 
@@ -11,7 +8,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className={"App"}>
-      {/*<LoadScreen />*/}
       <Hangman />
       <Footer />
     </div>

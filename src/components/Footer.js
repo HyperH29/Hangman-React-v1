@@ -1,3 +1,5 @@
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+
 const Footer = () => {
   return (
     <div className={"position-fixed bottom-0 w-100"}>
@@ -7,34 +9,28 @@ const Footer = () => {
           style={{ backgroundColor: "#db6930" }}
         >
           <div className="container d-flex justify-content-center py-3">
-            <button
-              type="button"
-              className="btn btn-primary btn-lg btn-floating mx-2"
-              style={{ backgroundColor: "#54456b" }}
+            <a href={"https://github.com/HyperH29?tab=repositories"}>
+              <button
+                type="button"
+                className="btn btn-primary btn-lg btn-floating mx-2"
+                style={{ backgroundColor: "#54456b" }}
+              >
+                <BsGithub />
+              </button>
+            </a>
+            <a
+              href={
+                "https://www.linkedin.com/in/hamza-khan-benjamin-20150b155/"
+              }
             >
-              <i className="fab fa-facebook-f"></i>
-            </button>
-            <button
-              type="button"
-              className="btn btn-primary btn-lg btn-floating mx-2"
-              style={{ backgroundColor: "#54456b" }}
-            >
-              <i className="fab fa-youtube"></i>
-            </button>
-            <button
-              type="button"
-              className="btn btn-primary btn-lg btn-floating mx-2"
-              style={{ backgroundColor: "#54456b" }}
-            >
-              <i className="fab fa-instagram"></i>
-            </button>
-            <button
-              type="button"
-              className="btn btn-primary btn-lg btn-floating mx-2"
-              style={{ backgroundColor: "#54456b" }}
-            >
-              <i className="fab fa-twitter"></i>
-            </button>
+              <button
+                type="button"
+                className="btn btn-primary btn-lg btn-floating mx-2"
+                style={{ backgroundColor: "#54456b" }}
+              >
+                <BsLinkedin />
+              </button>
+            </a>
           </div>
 
           <div
@@ -42,8 +38,8 @@ const Footer = () => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
             © 2020 Copyright:
-            <a className="text-white" href="https://mdbootstrap.com/">
-              MDBootstrap.com
+            <a className="text-white" href="https://github.com/HyperH29">
+              Hamza Khan-Benjamin
             </a>
           </div>
         </footer>
@@ -53,4 +49,5 @@ const Footer = () => {
 };
 
 export default Footer;
+// Footer From: mdbootstrap.com
 // https://mdbootstrap.com/snippets/standard/mdbootstrap/2885115?view=side

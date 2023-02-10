@@ -27,8 +27,3 @@ const HangmanState = [
 ];
 
 export default HangmanState;
-
-// Does this need a key? I don't think so
-// Do i need to add state?
-
-// I can call the key of the object list this
